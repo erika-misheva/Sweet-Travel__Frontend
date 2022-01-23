@@ -1,0 +1,240 @@
+@media all and (min-width: 1281px) {
+
+    .background {
+        min-height: 100vh;
+        height: 80%;
+        background-image: url("img/banner.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 14%;
+    }
+
+    p {
+        color: rgb(151, 147, 146);
+    }
+
+    #form {
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 30%;
+    }
+
+    .firstline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    input {
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    #uname {
+        width: 57%;
+        align-self: center;
+    }
+
+    #password {
+        width: 57%;
+        align-self: center;
+    }
+
+    div .secondline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    div .thirdline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    small {
+        color: rgb(151, 147, 146);
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .submit {
+        width: 30%;
+        height: 30px;
+        border-radius: 10px;
+        align-self: center;
+        background-color: rgb(13, 214, 13);
+        color: white;
+        font-size: large;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 1280px) and (min-width: 768px) {
+    .background {
+        min-height: 100vh;
+        height: 80%;
+        background-image: url("img/banner.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 14%;
+    }
+
+    p {
+        color: rgb(151, 147, 146);
+    }
+
+    #form {
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25%;
+    }
+
+    .firstline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    input {
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    #fname {
+        margin-bottom: 4%;
+    }
+
+    #uname, #password, #fname, #lname {
+        width: 80%;
+        align-self: center;
+    }
+
+    div .secondline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    div .thirdline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    small {
+        color: rgb(151, 147, 146);
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .submit {
+        width: 30%;
+        height: 30px;
+        border-radius: 10px;
+        align-self: center;
+        background-color: rgb(13, 214, 13);
+        color: white;
+        font-size: large;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .background {
+        min-height: 100vh;
+        height: 100%;
+        background-image: url("img/banner.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 14%;
+    }
+
+    p {
+        color: rgb(151, 147, 146);
+    }
+
+    #form {
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .firstline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    input {
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    #fname {
+        margin-bottom: 4%;
+    }
+
+    #uname, #password, #fname, #lname {
+        width: 80%;
+        align-self: center;
+    }
+
+    div .secondline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    div .thirdline {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    small {
+        color: rgb(151, 147, 146);
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .submit {
+        width: 30%;
+        height: 30px;
+        border-radius: 10px;
+        align-self: center;
+        background-color: rgb(13, 214, 13);
+        color: white;
+        font-size: large;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+}

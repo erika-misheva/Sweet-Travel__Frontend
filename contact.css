@@ -1,0 +1,318 @@
+@media all and (min-width: 1281px) {
+    #background {
+    min-height: 100vh;
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("img/travel.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding-top: 20px;
+    text-align: center;
+    color: hsl(216, 57%, 53%);
+}
+
+input {
+    border-radius: 5px;
+    height: 25px;
+    width: 35%;
+}
+
+.form {
+    background: hsla(0, 0%, 100%, 60%);
+    color: hsl(216, 57%, 53%);
+    text-align: center;
+    width: 50%;
+    position: relative;
+    /* left: 30%; */
+    bottom: 10%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+label {
+    color: hsl(216, 57%, 53%);
+}
+
+#submit {
+    height: 30px;
+    background-color: rgb(13, 214, 13);
+    color: white;
+    font-size: large;
+    margin-top: 3%;
+}
+
+/* #cancel {
+    height: 30px;
+    background-color: rgb(204, 15, 15);
+    color: white;
+    font-size: large;
+    margin-top: 3%;
+} */
+
+#allow {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+
+#newsletter {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    margin-top: 10%;
+    padding: 20px 20px;
+    background-image: linear-gradient(#f8f5ef, #ddceaf);
+    color: hsl(216, 57%, 53%);
+
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-evenly;
+flex-direction: row;
+}
+
+.column {
+    width: 30%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+}
+@media all and (max-width: 1280px) and (min-width: 768px) {
+    #background {
+        min-height: 100vh;
+        height: 100%;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url("img/travel.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        padding-top: 20px;
+        text-align: center;
+        color: hsl(216, 57%, 53%);
+        margin: 0;
+    }
+    
+    input {
+        border-radius: 5px;
+        height: 25px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0 auto;
+    }
+    textarea{
+        width: 70%;
+        height: auto;
+    }
+    
+    .form {
+        background: hsla(0, 0%, 100%, 60%);
+        color: hsl(216, 57%, 53%);
+        text-align: center;
+        width: 65%;
+        position: relative;
+        /* left: 30%; */
+        bottom: 10%;
+        margin: 0 auto;
+        padding-bottom: 3%;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    
+    label {
+        color: hsl(216, 57%, 53%);
+        width: 60%;
+
+    }
+    
+    #submit {
+        height: 30px;
+        background-color: rgb(13, 214, 13);
+        color: white;
+        font-size: large;
+        margin-top: 3%;
+        width: 20%;
+        text-align: center;
+    }
+    
+    #allow {
+        margin-top: 2%;
+        padding: 0;
+        width: 25px;
+        height: 25px;
+        align-content: center;
+    
+    }
+    
+    #newsletter {
+        margin-top: 2%;
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        align-items: center;
+    }
+    
+    .footer {
+        margin-top: 10%;
+        padding: 20px 20px;
+        background-image: linear-gradient(#f8f5ef, #ddceaf);
+        color: hsl(216, 57%, 53%);
+    
+    }
+    
+    .footer .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+     .column {
+        width: 33%;
+        align-content: center;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0;
+     }
+    iframe{
+        width: 80%;
+        height: auto;
+    }
+}
+@media all and (max-width: 767px) {
+    #background {
+        min-height: 100vh;
+        height: 100%;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url("img/travel.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        padding-top: 20px;
+        text-align: center;
+        color: hsl(216, 57%, 53%);
+        margin: 0;
+    }
+    
+    input {
+        border-radius: 5px;
+        height: 25px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0 auto;
+    }
+    textarea{
+        width: 80%;
+        height: auto;
+    }
+    
+    .form {
+        background: hsla(0, 0%, 100%, 60%);
+        color: hsl(216, 57%, 53%);
+        text-align: center;
+        width: 90%;
+        position: relative;
+        /* left: 30%; */
+        bottom: 10%;
+        margin: 0 auto;
+        padding-bottom: 3%;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    
+    label {
+        color: hsl(216, 57%, 53%);
+    }
+    
+    #submit {
+        height: 30px;
+        background-color: rgb(13, 214, 13);
+        color: white;
+        font-size: large;
+        margin-top: 3%;
+        width: 25%;
+        text-align: center;
+    }
+    
+    #allow {
+        margin-top: 2%;
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    #newsletter {
+        margin-bottom: 2%;
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .footer {
+        margin-top: 10%;
+        padding: 20px 20px;
+        background-image: linear-gradient(#f8f5ef, #ddceaf);
+        color: hsl(216, 57%, 53%);
+    
+    }
+    
+    .footer .container {
+        display: flex;
+        justify-content: center;
+    flex-direction: column;
+    }
+    
+    .column {
+        width: 100%;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    iframe{
+        width: 80%;
+        height: auto;
+    }
+    }
+
+       
